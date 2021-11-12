@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+<script>
+    - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+        Вивести кожну змінну за допомогою: console.log , alert, document.write
+    var a;
+    a = 'hello';
+    console.log(a);
+    document.write(a);
+    alert(a);
+
+     var b;
+     b = 'owu';
+     console.log(b);
+     document.write(b);
+     alert(b);
+
+     var c;
+     c = 'com';
+     console.log(c);
+     document.write(c);
+     alert(c);
+
+    var d;
+    d = 'ua';
+    console.log(d);
+    document.write(d);
+    alert(d);
+
+    var e;
+    e = 1;
+    console.log(e);
+    document.write(e);
+    alert(e);
+
+    let s;
+    s = 10;
+    console.log(s);
+    document.write(s);
+    alert(s);
+
+    let m;
+    m = -999;
+    console.log(m);
+    document.write(m);
+    alert(m);
+
+    let n;
+    n = 123;
+    console.log(n);
+    document.write(n);
+    alert(n);
+
+    const PI = 3.14;
+    console.log(PI);
+    document.write(PI);
+    alert(PI);
+
+    let p = 2.7;
+    console.log(p);
+    document.write(p);
+    alert(p);
+
+    let g = 16;
+    console.log(g);
+    document.write(g);
+    alert(g);
+
+    let j = false;
+    console.log(j);
+    document.write(j);
+    alert(j);
+
+    let f = true;
+    console.log(f);
+    document.write(f);
+    alert(f);
+
+    // переприсвоїти кожній змінній з завдання значення на довільне
+    // Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+    var a = 'hello';
+    a = 'привіт';
+    console.log(a);
+    document.write(a);
+    alert(a);
+
+    var b = 'owu';
+    b = 'okten';
+    console.log(b);
+    document.write(b);
+    alert(b);
+    var c = 'com';
+    c = 'red';
+    console.log(c);
+    document.write(c);
+    alert(c);
+
+    var d = 'ua';
+    d = 'br';
+    console.log(d);
+    document.write(d);
+    alert(d);
+
+    var e = 1;
+    e = 15;
+    console.log(e);
+    document.write(e);
+    alert(e);
+
+    let s = 10;
+    s = 5;
+    console.log(s);
+    document.write(s);
+    alert(s);
+
+    let m = -999;
+    m = fals;
+    console.log(m);
+    document.write(m);
+    alert(m);
+
+    let n = 123;
+    n = 'welkome';
+    console.log(n);
+    document.write(n);
+    alert(n);
+
+    const PI = 3.14;
+    PI = true;
+    console.log(PI);
+    document.write(PI);
+    alert(PI);
+
+
+    let p = 2.7;
+    p = 5;
+    console.log(p);
+    document.write(p);
+    alert(p);
+
+    let g = 16;
+    g = 4;
+    console.log(g);
+    document.write(g);
+    alert(g);
+
+    let j = false;
+    j = 8;
+    console.log(j);
+    document.write(j);
+    alert(j);
+
+    let f = true;
+    f = 34;
+    console.log(f);
+    document.write(f);
+    alert(f);
+
+    // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+    let firstName = 'olena_';
+    let middleName = 'mihailovna_';
+    let lastName = 'grishenko';
+    let person =`${firstName}${middleName}${lastName }`;
+    document. write(person);
+
+    // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+    //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".( Не виходить зробити)
+
+    let user1= {
+         firstName : 'olena',
+         middleName : 'mihailovna',
+         lastName : 'grishenko',
+         age : 39,
+    }
+
+    let p = prompt('your firstName?',' olena')
+    console.log(user1[p]);
+    let r = prompt('your middleName ?','mihailovna ')
+    console.log(user1[r]);
+    let d = prompt('your  age?','39')
+    console.log(user1[d]);
+
+
+    document.write(`Вітаю+` '+firstName+' '+middleName+.''Тобі' '+age+' `років`);
+
+    alert(`Вітаю${firstName}${middleName}. Вам${age}років.`); Почему то пишет в консоли firstName ananimus
+
+
+    // За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+        let a = 100; let b = '100'; let c = true;
+    let a = 100;
+    console.log(typeof a);
+    console.log(a);
+
+    let b = '100';
+    console.log(typeof b);
+    console.log(b);
+
+    let c = true;
+    console.log(typeof c);
+    console.log(c);
+
+
+
+    // - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+    //     В однакових виразах не використовувати однакові оператори!!!
+
+    console.log(5<6);
+    console.log(5>6);
+    console.log(5>=6);
+    console.log(5==6);
+    console.log(10==10);
+    console.log(10===10);
+    console.log(10!==10);
+    console.log(10>10);
+    console.log(10>10);
+    console.log(123>123);
+    console.log(123==123);
+
+    // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+    let str = "20";
+    let a = 5;
+     document.write(str + a + "<br/>");    205, тому що 20 строка, а 5 число
+      document.write(str - a + "<br/>");    15
+      document.write(str * "2" + "<br/>");  40
+     document.write(str / 2 + "<br/>");      10
+
+
+</script>
+
+
+</body>
+</html>
